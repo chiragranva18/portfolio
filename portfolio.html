@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirag Ranva</title>
+    <link rel="icon" href="logo main.png">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/c54672958e.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="chcc.png" alt="Logo" style="height: 70px; width: 400px; ">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Designer, Web Developer & Electrical Engineer</p>
+                <h1>Hi, I'm <span>Chirag</span> <br> Ranva From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="chirag.png" style="height: 490px; width: 359px; ">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtital">About Me</h1>
+                    <p>To work and succeed in a stimulating and challenging environment , building the success of the
+                        company while I experience advancement opportunities.I am doing my best at any cost what the situation is i can face the toughest situation to do my best is my rule won't give up and do the work until you can't do that work.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/Ux</span><br>Designing web / App interfacec</li>
+                            <li><span>Web development</span><br>Web development</li>
+                            <li><span>App Development</span><br>Building Android / ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Graphic Design</span><br>Designing of Sale Product poster</li>
+                            <li><span>Web development</span><br>Web development</li>
+                            <!-- <li><span>App Development</span><br>Building Android / ios apps</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-Current</span><br>Bachelor of Engineering in Electrical</li>
+                            <li><span>2016-2019</span><br>Diploms In Electrical Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  ----------------------- Services------------------  -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consequatur dolor eaque esse ipsa ad error. Illo corrupti eum quis placeat consequuntur dolores tenetur quidem quaerat? Iure atque nesciunt laboriosam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI / UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consequatur dolor eaque esse ipsa ad error. Illo corrupti eum quis placeat consequuntur dolores tenetur quidem quaerat? Iure atque nesciunt laboriosam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>APP Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consequatur dolor eaque esse ipsa ad error. Illo corrupti eum quis placeat consequuntur dolores tenetur quidem quaerat? Iure atque nesciunt laboriosam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------portfolio----------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>The app Connects you yo The talented People around the World. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>The app Connects you yo The talented People around the World. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping app</h3>
+                        <p>The app Connects you yo The talented People around the World. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!---------------contact------------->
+ 
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> chiragranva070@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9712912697</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright © Chirag Ranva. Made by Me<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script> 
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu (){
+            sidemenu.style.right = "-200px";    
+        }
+    </script>
+    
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbx2SJv3Nuos1BffceIYnldDcZd3qRWpD8SD7ysUjE2-9PuKbhN-bEw6ZiDthArkrsvn/exec>'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
